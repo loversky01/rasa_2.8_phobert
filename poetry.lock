@@ -2994,17 +2994,16 @@ torch = ["torch"]
 
 [[package]]
 name = "twilio"
-version = "6.50.1"
+version = "7.8.2"
 description = "Twilio API client and TwiML generator"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6.0"
 
 [package.dependencies]
-PyJWT = ">=1.4.2"
+PyJWT = ">=2.0.0,<3.0.0"
 pytz = "*"
-requests = {version = ">=2.0.0", markers = "python_version >= \"3.0\""}
-six = "*"
+requests = ">=2.0.0"
 
 [[package]]
 name = "typed-ast"
@@ -3264,7 +3263,7 @@ transformers = ["transformers"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6,<3.9"
-content-hash = "9f21ccf0302957806928379a06e64ebab17b22dbfb48797e5cd8eda51eda5fb4"
+content-hash = "67b567f41bf50f8d2e674ecf6773a364100426ecad1c6c3e6f032ed6d1ca7ee7"
 
 [metadata.files]
 absl-py = [
@@ -5149,6 +5148,8 @@ sentencepiece = [
     {file = "sentencepiece-0.1.96-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:e9e9fe8094ca57549d801e9a2017ac5c24108bbf485ea4f8994a72e8e96ee135"},
     {file = "sentencepiece-0.1.96-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:b77d27f59d515c43b61745b8173fbe7c7b3014b14b3702a75bf1793471e7def6"},
     {file = "sentencepiece-0.1.96-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1dac8c2ad02b5ebc1179c0a14cbc7d7c6f4fd73d4dd51820626402d0aefc974e"},
+    {file = "sentencepiece-0.1.96-cp310-cp310-win32.whl", hash = "sha256:3028699bdb2fb0230804f3b8a617fe3af22f5c5a56416419b31a7da5e7bf83bc"},
+    {file = "sentencepiece-0.1.96-cp310-cp310-win_amd64.whl", hash = "sha256:203443a7bd4295b6a3695787235abe0e77d4c369d7156a6b9a397c540a38bd27"},
     {file = "sentencepiece-0.1.96-cp35-cp35m-macosx_10_6_x86_64.whl", hash = "sha256:e8ec5bb6777e2060e1499750c50e1b69dca5a0f80f90f2c66656c5f3e5244593"},
     {file = "sentencepiece-0.1.96-cp36-cp36m-macosx_10_6_x86_64.whl", hash = "sha256:99ea2d9db19e63a2d17d5dc64f9ace83fb9308a735be05a1aaf98eb4b496fba7"},
     {file = "sentencepiece-0.1.96-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:aeb090ad462833df03af1debce4ae607a2766ef861f992003ad0c56d074ab805"},
@@ -5447,7 +5448,8 @@ transformers = [
     {file = "transformers-2.11.0.tar.gz", hash = "sha256:8de20f03a94ebf16d98610a7df0acc6ba68c80bd44605cf5ad4300c642a7b57a"},
 ]
 twilio = [
-    {file = "twilio-6.50.1.tar.gz", hash = "sha256:dd8371c9b4ea422d6de7526b63b587da82e8488f2b3f6b1258d2cad6e4006a65"},
+    {file = "twilio-7.8.2-py2.py3-none-any.whl", hash = "sha256:f8d4288d39d20b1f57240c002051224fdd63850f570812a62d9b025ee4954e43"},
+    {file = "twilio-7.8.2.tar.gz", hash = "sha256:59ca119442f7ed037eb64f2c90e771432418a08874fed72da99e4375cf44ad8f"},
 ]
 typed-ast = [
     {file = "typed_ast-1.4.3-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:2068531575a125b87a41802130fa7e29f26c09a2833fea68d9a40cf33902eba6"},
